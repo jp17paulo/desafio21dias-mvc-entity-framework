@@ -46,3 +46,18 @@ dotnet tool install -g dotnet-aspnet-codegenerator
 dotnet aspnet-codegenerator controller -name AlunosController -m Aluno -dc DbContexto --relativeFolderPath Controllers --useDefaultLayout
 
 ```
+# Anotações
+
+#### Aplicação mínima REST
+----
+GET - Buscar informações
+POST - Cadastrar informações
+
+PUT - Fazer alterações de todos os campos
+PATCH - Para fazer alterações de alguns campos
+
+DELETE - Apagar as informações
+
+Web - HTML ... Amarram as coisas por suas tags
+SOAP - XML ...
+---
