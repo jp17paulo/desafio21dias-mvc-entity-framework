@@ -43,6 +43,7 @@ dotnet tool install -g dotnet-aspnet-codegenerator
 
 # Gerando o scaffold de Aluno
 ``` bash
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 5.0.2
 dotnet aspnet-codegenerator controller -name AlunosController -m Aluno -dc DbContexto --relativeFolderPath Controllers --useDefaultLayout
 
 ```
